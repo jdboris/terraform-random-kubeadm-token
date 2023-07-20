@@ -4,7 +4,7 @@ output "token" {
 
   depends_on = [
     random_shuffle.token1,
-    random_shuffle.token1,
+    random_shuffle.token2,
   ]
 }
 
